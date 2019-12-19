@@ -1,0 +1,41 @@
+{
+    "name": "RESTBase",
+    "description": "<p>RESTBase is a caching \/ storing API proxy. Its configuration is based on Swagger specs, and its primary storage backend is using Cassandra. It powers rest.wikimedia.org, the Wikimedia REST content API currently in beta production. As a proxy, RESTBase does not perform any significant content processing itself. Instead, it requests content transformations from backend services when needed, and typically (depending on configuration) stores it back for later retrieval.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/RESTBase-Logo.png",
+    "tags": [
+        "deployment",
+        "framework",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/restbase\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "RESTBase",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/RESTBase-Logo.png",
+            "humanURL": "http:\/\/www.mediawiki.org\/wiki\/RESTBase",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/restbase-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/wikimedia\/restbase"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.mediawiki.org\/wiki\/RESTBase"
+        }
+    ]
+}
